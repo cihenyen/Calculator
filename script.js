@@ -508,7 +508,7 @@ window.onload = function() {
   // create link to source code: 
     let a = document.createElement('a'); 
     let signature = document.getElementById('signature'); 
-    a.textContent = "Made by Saskia Binder"; 
+    a.textContent = "Made by Christian Ihenyen"; 
     signature.appendChild(a);
     signature.addEventListener('click', () => { 
         newTab(); 
